@@ -5,5 +5,5 @@ import (
 )
 
 func Forbidden(responseWriter http.ResponseWriter, request *http.Request) {
-	Serve(responseWriter, methods...)
+	Serve(responseWriter)
 }
